@@ -1,0 +1,182 @@
+.main {
+    /* position:absolute; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDE8F5;
+    overflow: auto;
+
+   
+}
+
+.main>div {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dcard {
+    width: 300px;
+    height: 350px;
+    background-color: #C1C8E4;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.dcard:hover {
+    box-shadow: 5px 10px #888888;
+    background-color: #aab4ce;
+}
+
+.descriprion {
+    padding: 10px;
+    overflow: auto;
+    scrollbar-width: none;
+    padding: 5px;
+
+}
+
+.select {
+    background-color: #8697C4;
+    min-height: 7vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 10px 0 10px
+}
+
+.select select {
+    height: 70%;
+    background-color: #EDE8F5;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.heading {
+    padding: 5px 0 5px 0;
+}
+
+.imgstyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar {
+    background-color: #7189cc;
+}
+
+.navbar>button {
+    margin: 0 10px 0 10px;
+}
+
+
+.select>select:hover {
+    background-color: #bfcae8;
+}
+
+.select>select>option:hover {
+    background-color:  #8697C4;
+}
+
+.selectedCard {
+    background-color: #EDE8F5;
+    height: 92vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.selectedCard>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #C1C8E4;
+    border-radius: 25px;
+    padding: 15px;
+    width: 60%;
+    gap:10px;
+}
+
+.selectedCard>div>img {
+    border-radius: 20px;
+    width: 70%;
+}
+
+.selectedCard>div>p {
+    width: 68%;
+    overflow: auto;
+    height: auto;
+    scrollbar-width: none;
+}
+
+.selectedCard>div:hover {
+    box-shadow: 5px 10px #888888;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .selectedCard > div{
+  
+    width: 300px;
+    padding: 10px;
+
+  }
+  .selectedCard > div > img{
+    width: 200px;
+  }
+  }
+
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    .card-registration{
+        background-color: #EDE8F5;
+    }
+    #res{
+        background-color: #C1C8E4;
+    }
+
+    .select > #span{
+        background-color:#EDE8F5;
+        padding: 3px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+   /* .divcard{ 
+    height: 80vh;
+    
+   } */
